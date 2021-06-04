@@ -1,0 +1,39 @@
+package com.spring.di.annotation;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+
+public class SamsungTV implements TV {
+	//积己等 按眉 林涝
+	@Autowired
+	@Qualifier("speaker2")
+	private Speaker speaker; //SonySpeaker or SamsungSpeaker
+
+	
+	public SamsungTV() {
+		System.out.println("SamsungTV - 按眉 积己(1)");
+	}
+	
+
+	@Override
+	public void turnOn() {
+		System.out.println("SamsungTV - 颇况 On");
+	}
+
+
+	@Override
+	public void turnOff() {
+		System.out.println("SamsungTV - 颇况 Off");
+	}
+
+	@Override
+	public void soundUp() {
+		speaker.volumeUp(); 
+	}
+
+	@Override
+	public void soundDown() {
+		speaker.volumeDown();
+	}
+
+}

@@ -1,0 +1,43 @@
+package com.spring.persistance;
+
+import org.springframework.stereotype.Repository;
+
+import com.spring.domain.BookVO;
+
+import static com.spring.persistance.JDBCUtil.*;
+
+import java.sql.PreparedStatement;
+
+@Repository
+public class BookDAO {
+
+	public int insert(BookVO vo) {
+		int result=0;
+		PreparedStatement pstmt=null;
+		
+		try {
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			close(pstmt);
+		}
+		return result;
+	}
+	
+	public int delete(BookVO vo) {
+		int result=0;
+		PreparedStatement pstmt=null;
+		
+		try {
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			close(pstmt);
+		}
+		return result;
+	}
+	
+	
+}

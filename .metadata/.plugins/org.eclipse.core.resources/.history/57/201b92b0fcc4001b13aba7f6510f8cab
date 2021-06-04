@@ -1,0 +1,28 @@
+package com.spring.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.spring.mapper.PersonMapper;
+@Service("person")
+public class PersonServiceImpl implements PersonService {
+	@Autowired
+	private PersonMapper mapper;
+	@Override
+	public void insertPerson(String id, String name) {
+		return insertPerson(id, name);
+	}
+	@Override
+	public void updatePerson(String id, String name) {
+		return mapper.updatePerson(id, name)
+	}
+	@Override
+	public void deletePerson(String id) {
+		return mapper.deletePerson(id)>0?true:false;
+	}
+	@Override
+	public void selectPerson(String id) {
+		return mapper.selectPerson(id);
+
+	}
+}

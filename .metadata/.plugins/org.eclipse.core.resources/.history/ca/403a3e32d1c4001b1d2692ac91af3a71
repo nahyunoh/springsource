@@ -1,0 +1,97 @@
+package com.spring.persistance;
+
+import org.springframework.stereotype.Repository;
+
+import com.spring.domain.BookVO;
+
+import static com.spring.persistance.JDBCUtil.*;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+import java.util.List;
+
+@Repository
+public class BookDAO {
+
+	public int insert(BookVO vo) {
+		int result=0;
+		PreparedStatement pstmt=null;
+		Connection con=null;
+		String sql="insert into bookTBL values(?,?,?,?)";
+		try {
+			con=getConnection();
+			pstmt=con.prepareStatement(sql);
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			close(pstmt);
+		}
+		return result;
+	}
+	
+	public int delete(int code) {
+		int result=0;
+		PreparedStatement pstmt=null;
+		Connection con=null;
+		String sql="delete from bookTBL where code=?";
+		try {
+			con=getConnection();
+			pstmt=con.prepareStatement(sql);
+			pstmt.setInt(1, code);
+			result=pstmt.executeUpdate();
+			
+			if(result>0) {
+				commit(con);
+			}else {
+				rollback(con);
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			close(con);
+			close(pstmt);
+		}
+		return result;
+	}
+	
+	public BookVO getRow(int code) {
+		PreparedStatement pstmt=null;
+		Connection con=null;
+		ResultSet rs=null;
+		BookVO vo=null;
+		String sql="";
+		try {
+			con=getConnection();
+			pstmt=con.prepareStatement(sql);
+			pstmt.setInt(1, code);
+		
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			close(con);
+			close(pstmt);
+		}
+		return vo;
+	}
+	
+	public List<BookVO> getList(){
+		PreparedStatement pstmt=null;
+		Connection con=null;
+		ResultSet rs=null;
+		List<BookVO> list=new ArrayList<BookVO>();
+		 
+		try {
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			
+		}
+		return list;
+	}
+	
+}

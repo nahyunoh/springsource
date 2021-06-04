@@ -1,0 +1,15 @@
+package com.spring.mybatis;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.spring.service.PersonService;
+
+public class PersonClient {
+public static void main(String[]args) {
+	ApplicationContext ctx=new ClassPathXmlApplicationContext("config.xml");
+	PersonService service=(PersonService)ctx.getBean("person");
+	
+	service.insertPerson("kim", "±èÁöÈ«");
+} 
+}

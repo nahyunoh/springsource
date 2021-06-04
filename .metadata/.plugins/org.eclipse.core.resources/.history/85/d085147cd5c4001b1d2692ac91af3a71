@@ -1,0 +1,21 @@
+package com.spring.book;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.spring.domain.BookVO;
+import com.spring.service.BookService;
+import com.spring.service.BookServiceImpl;
+
+public class BookClient {
+
+	public static void main(String[] args) {
+//		BookServiceImpl service=new BookServiceImpl();
+//		BookVO vo=service.getRow(1000);
+//		System.out.println(vo);
+		
+		ApplicationContext ctx=new ClassPathXmlApplicationContext("config.xml");
+		BookService service=(BookService) ctx.getBean("");
+	}
+
+}

@@ -1,0 +1,41 @@
+package com.spring.di.annotation;
+
+public class SamsungTV implements TV {
+	
+	private Speaker speaker;
+
+	
+	public SamsungTV() {
+		System.out.println("SamsungTV - 按眉 积己(1)");
+	}
+	
+	
+	public void setSpeaker(Speaker speaker) {
+		this.speaker = speaker;
+	}
+	
+
+	@Override
+	public void turnOn() {
+		System.out.println("SamsungTV - 颇况 On");
+	}
+
+
+	@Override
+	public void turnOff() {
+		System.out.println("SamsungTV - 颇况 Off");
+	}
+
+	@Override
+	public void soundUp() {
+		//System.out.println("SamsungTV - volumeUp");
+		speaker.volumeUp(); 
+	}
+
+	@Override
+	public void soundDown() {
+		//System.out.println("SamsungTV - volumeDown");
+		speaker.volumeDown();
+	}
+
+}

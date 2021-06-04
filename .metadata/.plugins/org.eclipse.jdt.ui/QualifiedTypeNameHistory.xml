@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.spring.basic.SamsungTV"/>
+    <fullyQualifiedTypeName name="com.sun.tools.jdeps.DepsAnalyzer"/>
+    <fullyQualifiedTypeName name="com.spring.poly.SonySpeaker"/>
+    <fullyQualifiedTypeName name="com.spring.poly.SamsungTV"/>
+    <fullyQualifiedTypeName name="com.spring.basic.MessageBean"/>
+    <fullyQualifiedTypeName name="java.lang.Appendable"/>
+    <fullyQualifiedTypeName name="org.springframework.web.context.support.XmlWebApplicationContext"/>
+    <fullyQualifiedTypeName name="com.spring.student.StudentInfo"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+    <fullyQualifiedTypeName name="javax.inject.Inject"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="com.spring.service.BoardService"/>
+    <fullyQualifiedTypeName name="com.spring.persistance.BoardDAO"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.ToString"/>
+    <fullyQualifiedTypeName name="com.spring.service.BookServiceImpl"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.StaticApplicationContext"/>
+    <fullyQualifiedTypeName name="oracle.jdbc.proxy.annotation.Pre"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.spring.service.BookService"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="javax.sql.DataSource"/>
+    <fullyQualifiedTypeName name="com.spring.persistance.JDBCUtil"/>
+    <fullyQualifiedTypeName name="com.spring.domain.BoardRowMapper"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="com.spring.domain.BoardVO"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="com.spring.domain.BookVO"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
+    <fullyQualifiedTypeName name="com.spring.persistance.BookDAO"/>
+    <fullyQualifiedTypeName name="com.spring.domain.BookRowMapper"/>
+</qualifiedTypeNameHistroy>

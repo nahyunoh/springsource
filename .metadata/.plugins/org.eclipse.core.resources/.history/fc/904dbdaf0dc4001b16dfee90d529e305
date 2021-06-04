@@ -1,0 +1,13 @@
+package com.spring.poly;
+
+public class SonySpeaker {
+	public SonySpeaker() {
+		System.out.println("===> SonySpeaker °´Ã¼ »ý¼º");
+	}
+	public void volumeUp() {
+		System.out.println("===> SonySpeaker volume Up");
+	}
+	public void volumeDown() {
+		System.out.println("===> SonySpeaker volume Down");
+	}
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=java_basic/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.spring.poly{TV.java[TV" modifiers="513" timestamp="1622624649118"/>
+    <typeInfo handle="=spring_basic/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.spring.basic{MessageBean.java[MessageBean" modifiers="513" timestamp="1622686358593"/>
+    <typeInfo handle="=simple_board/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.spring.service{BoardService.java[BoardService" modifiers="513" timestamp="1622706667413"/>
+    <typeInfo handle="=simple_board_cp_jdbc/C:\/Users\/ohna0\/.m2\/repository\/org\/springframework\/spring-jdbc\/5.3.7\/spring-jdbc-5.3.7.jar=/maven.pomderived=/true=/=/org.eclipse.jst.component.dependency=/\/WEB-INF\/lib=/=/maven.pomderived=/true=/=/org.eclipse.jst.component.archivename=/spring-jdbc-5.3.7.jar=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-jdbc=/=/maven.version=/5.3.7=/=/maven.scope=/compile=/&lt;org.springframework.jdbc.core(RowMapper.class[RowMapper" modifiers="1537" timestamp="1622775544484"/>
+</typeInfoHistroy>

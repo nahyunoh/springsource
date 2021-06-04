@@ -1,0 +1,5 @@
+package com.spring.service;
+
+public interface PersonService {
+	public void insertPerson(String id, String name);
+}

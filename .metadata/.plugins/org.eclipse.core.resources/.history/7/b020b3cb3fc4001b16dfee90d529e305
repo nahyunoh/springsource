@@ -1,0 +1,20 @@
+package com.spring.domain;
+
+import lombok.AllArgsConstructor;
+import lombok.Setter;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+
+public class BoardVO {
+	private bno;
+	private title;
+	private content;
+	private writer;
+	private regdate;
+	private updatedate;
+}

@@ -1,0 +1,14 @@
+package com.spring.book;
+
+import com.spring.domain.BookVO;
+import com.spring.service.BookServiceImpl;
+
+public class BookClient {
+
+	public static void main(String[] args) {
+		BookServiceImpl service=new BookServiceImpl();
+		BookVO vo=service.getRow(1000);
+		System.out.println(vo);
+	}
+
+}
