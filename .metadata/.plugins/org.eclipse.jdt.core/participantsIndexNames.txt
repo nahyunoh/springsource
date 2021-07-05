@@ -17,10 +17,10 @@ C:\springsource\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3495206064
 \mybatis\src\main\java
 C:\springsource\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1039040088.index
 \board_security_javaconfig\src\main\java
-C:\springsource\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1339604157.index
-\fileupload\src\main\java
 C:\springsource\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\99113099.index
 \board_security_javaconfig\src\main\java
+C:\springsource\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1339604157.index
+\fileupload\src\main\java
 C:\springsource\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2107841907.index
 \transaction_annotation_javaconfig\src\main\java
 C:\springsource\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1516777643.index
@@ -39,6 +39,8 @@ C:\springsource\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1126729634
 \aop_annotation\src\main\java
 C:\springsource\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\241279088.index
 \simple_web_javaconfig\src\main\java
+C:\springsource\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1058403564.index
+\test2\src\main\java
 C:\springsource\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\45357430.index
 \fileupload\src\main\java
 C:\springsource\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2933546553.index
