@@ -1,9 +1,0 @@
-package com.spring.service;
-
-public class BookService {
-	public olean insert(BookVO vo);
-	public boolean update(BookVO vo);
-	public boolean delete(int code);
-	public BookVO getRow(int code);
-	publiv List<BookVO> getList();
-}

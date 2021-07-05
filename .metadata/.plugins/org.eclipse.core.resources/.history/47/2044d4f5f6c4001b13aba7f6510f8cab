@@ -1,7 +1,0 @@
-package com.spring.service;
-
-public interface PersonService {
-	public static void insertPerson(String id, String name) {
-		
-	}
-}

@@ -1,6 +1,0 @@
-package com.spring.poly;
-
-public class TVUser {
-	SamsungTV samsung=new SamsungTV();
-	samsung.turnOn();
-}

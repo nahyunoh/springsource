@@ -1,9 +1,0 @@
-package com.spring.student;
-
-public class StudentInfo {
-	private Student student;
-	
-	public StudentInfo(Student student) {
-		this.student=student;
-	}
-}

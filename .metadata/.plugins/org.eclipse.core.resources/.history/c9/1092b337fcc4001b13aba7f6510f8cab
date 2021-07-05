@@ -1,9 +1,0 @@
-package com.spring.service;
-
-public interface PersonService {
-	public void insertPerson(String id, String name);
-	public boolean updatePerrson(String id, String name);
-	public boolean deletePerson(String id);
-	public String select(String id);
-	public List<PersonVO> getList();
-}

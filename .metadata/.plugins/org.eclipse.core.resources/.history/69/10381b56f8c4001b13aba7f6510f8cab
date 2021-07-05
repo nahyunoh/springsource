@@ -1,8 +1,0 @@
-package com.spring.mapper;
-
-import org.apache.ibatis.annotations.Insert;
-
-public interface PersonMapper {
-	@Insert("insert into person(id,name) values(#{id},#{name})")
-public int insertPerson(String id, String name);
-}

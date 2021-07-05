@@ -1,5 +1,0 @@
-package com.spring.persistance;
-
-public class BookDAO {
-
-}
